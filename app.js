@@ -27,6 +27,42 @@ function myfunction(){
     myfunction2()
   
 }
+function myfunction3(){
+    alert('cliked')
+}
+
+
+function myfunction4(){
+    document.getElementById("bright").style.display = "inherit";
+    };
+
+function reversefunction4(){
+    document.getElementById("bright").style.display = "none";
+}
+
+function myFunctionjs() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+function cont (){
+    gsap.to('.wavy', {y:'220%', duration:2, stagger:0.5,  ease:'bounce'});
+    gyroback()
+    //gsap.to('.wavy', {y:'-260%', duration:2, stagger:0.5,  ease:'bounce'});
+}
+function gyroback(){
+    gsap.to('.wavy', {x:'860%',delay:2.5, duration:1, stagger:0.5,  ease:'bounce'});
+    gsap.to('.cont1', {scale:'1.4',x:'-250', width:'460',borderBottomLeftRadius:'30',borderTopRightRadius:'40', duration:2, delay:3.5});
+    gsap.to('.cont', {scale:'1.2',x:'-148', width:'412',fontSize:'13',height:'40', duration:1, delay:3.5});
+
+}
+
+
+
 // function myFunction(){
 //     gsap.from('#section-one', {
 //         duration:2, y:'-300%', ease:'back'
