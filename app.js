@@ -6,14 +6,16 @@
 // tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1 });
 // tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 
-
-gsap.to('.box1',{x:1040, rotation:360, duration:3, delay:3});
+window.addEventListener("load", function(){
+    gsap.to('.box1',{x:1040, rotation:360, duration:3, delay:3});
 gsap.from('.box1',{opacity:0, duration:2,delay:2});
 //gsap.to('#zero',{y:'-200', duration:1,delay:1.2});
 
 gsap.from('#section-one', {
     duration:2, y:'-300%', ease:'back'
 })
+});
+
 function myfunction3(){
     gsap.to('.box2', {scale:'3', duration:2,});
 }
@@ -70,3 +72,9 @@ function gyroback(){
 //     // gsap.from('#section-two',{scale:-3, duration:2,delay:2});
 // }
 // document.getElementById("section-one").onscroll = function() {myFunction()};
+
+
+{/* <div onclick="doSomething(this)"></div>
+function doSomething(clickedElement) {
+   console.log(clickedElement);//I was clicked
+} */}
