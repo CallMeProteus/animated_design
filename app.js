@@ -21,7 +21,7 @@ function myfunction3(){
 }
 
 function myfunction2(){
-    gsap.to('.box2', {x:'-260%', duration:2, stagger:0.5});
+    gsap.to('.box2', {x:'-300%', duration:2, stagger:0.5});
 }
 function myfunction(){
    
