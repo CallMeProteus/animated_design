@@ -29,7 +29,7 @@ body{
 #section-one{
     background-image: url(images/girl1.jpg);
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     background-position: center;
     margin: -10;
     padding: 20px;
