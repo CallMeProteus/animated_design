@@ -1,145 +1,46 @@
-body{
-    padding: 0px;
-    margin: 0px;
-    margin-top: -60px;
-    background-color: black;
-    
+body{padding: 0px; margin: 0px; margin-top: -60px; background-color: black; 
 }
-#zero{
-    height:100vh;
-    width:100%;
-    background-color: black;
-    position: absolute;
-    text-align: center;
+#zero{ height:100vh; width:100%; background-color: black; position: absolute; text-align: center;
 }
-.zero-text{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 130px;
-    font-size: 4.3em;
-    color: blue;
-
-}
-
-
-
-
+.zero-text{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding-top: 130px;   font-size: 4.3em;  color: blue;}
 
 /* section one */
-
 #section-one{
-    background-image: url(images/girl1.jpg);
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
-    margin: -10;
-    padding: 20px;
-    overflow: hidden;
-    background-attachment: fixed;
-    position: relative;
-}
-
-
-.box1{
-    text-align: center;
-    width: 320px;
-    height: 220px;
-    padding:10px;
-    border-color:white;
-    border-width:.8;
-    position: absolute;
-    background-color:	#1d0825;
-    margin-top:70vh;
-    left:0px;
-    top:-200px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    border-radius: 3px;
-    opacity:1;
-}
-
-
-
-
+    background-image: url(images/girl1.jpg); background-size: cover; height: 100vh; background-position: center; margin: -10; padding: 20px;    overflow: hidden; background-attachment: fixed; position: relative;}
+.box1{  text-align: center;  width: 420px;  height: 220px;  padding:10px;  border-color:white;  border-width:.8;  position: absolute;  background-color:	#1d0825;  margin-top:70vh;
+    left:10px; top:-4%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white; border-radius: 3px; opacity:1;}
+.box1 p{color: red; text-align: justify; padding: 10px;}
 
 /* section two */
-
-
-#section-two{
-    background-image: url(images/girl2.jpg);
-    overflow: hidden;
-    background-size: cover;
-    min-height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    opacity:0.2;
-    display: flex;
-    padding-left: 700px;
-    position: relative;
-}
-
-.box2{
-    display: inline-block;
-    height:420px;
-    width:300px;
-    margin: 8px;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    -webkit-box-shadow: 0 0 10px rgb(0,0,0);
-    -moz-box-shadow: 0 0 10px rgb(0,0,0);
-    background-color: #333;
-}
-.box2:hover{
-    background-color: #1d0825;
-}
-.im{
-    width: 60px;
-    height: 60px;
-    margin-right: 4px;
-    
-}
-.box3{
-    border-top-right-radius: 10px;
-    width:90%;
-    height:60%;
-    opacity: .7;
-    border-bottom-left-radius: 30px;
-}
-
-.btn1{
-    margin: 8px;
-    color: white;
-    border-width: 0px;
-    font-size: 1.05em;
-    background-color: transparent;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    /* background-image: linear-gradient(to right, blue , yellow); */
-}
-.aligner{
-    display: inline;
-}
-#bright{
-    position:absolute;
-    left:0;
-    width:100%;
-    height: 100%;
-    background:black;
-    display: none;
- 
-
-}
+#section-two{  background-image: url(images/girl2.jpg);  overflow: hidden;  background-size: cover;  min-height: 100vh;  background-attachment: fixed;  background-position: center;opacity:0.2;display: flex;
+    padding-left: 700px;  position: relative;}
+.box2{ display: inline-block;
+    height:420px; width:300px; margin: 8px; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+    -moz-box-shadow: 0 0 10px rgb(0,0,0); background-color: rgb(187, 184, 184); background-color: #281031;}
+.box2:hover{background-color: #110416;}
+.im{ width: 60px; height: 60px; margin-right: 4px;}
+.box3{border-top-right-radius: 10px;width:90%;height:60%;opacity: .7;border-bottom-left-radius: 30px;}.btn1{margin: 8px;color: white;border-width: 0px;
+    font-size: 1.05em; background-color: transparent; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-image: linear-gradient(to right, blue , yellow); */}
+.aligner{ display: inline;}
+#bright{ position:absolute; left:0; width:100%; height: 100%; background:black; display: none;}
 .brightcontainer{
-    text-align: center;
+  width: 88%;
+  margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .brights{
 
     height:300px;
-    width:200px;
+    width:320px;
     background-color: white;
-    margin: 4px;
-    float: left;
-    border
+    margin: 2px;
+  
+  
 }
 
 .brighttitle{
@@ -177,17 +78,19 @@ body{
     height: 70vh;
     background-attachment: fixed;
     background-position: center;
+    position: relative;
     
     
 
 }
 #intruder{
     margin: auto;
-    position: relative;
+    position: absolute;
     width:90%;
     height: 69vh;
     background-color: #1d0825;
-    top:-100px;
+    top:-130px;
+    left: 5%;
     border-radius: 3px;
     padding-left: 18px;
 
@@ -203,14 +106,14 @@ body{
     padding: 18px;
 }
 #deals{
-    display: inline;
-}
+    display: flex;
+    flex-wrap: wrap;width: 96%; margin: auto;  }
 
 
 .dealsbox{
-    float: left;
-    width:300px;
-    height: 180px;
+    
+    width:380px;
+    height: 200px;
     -webkit-box-shadow: 0 0 10px rgb(0,0,0);
     -moz-box-shadow: 0 0 10px rgb(0,0,0);
     background-color: black;
@@ -218,7 +121,7 @@ body{
 
 }
 .dealsbox:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition-duration: 1s;
 }
 
@@ -275,14 +178,6 @@ body{
 }
 
   
-
-
-
-
-
-
-
-
 
 
 
@@ -368,21 +263,16 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  #intruder{
-      overflow: scroll;
-  }
-  #section-two{
-      width:700px;
-      overflow: hidden;
-      background-size: cover;
-  }
+  .topnav a:not(:first-child), .dropdown .dropbtn {  display: none;}.topnav a.icon {  float: right;  display: block;  }
+ 
+  #section-one{width: 100%;background-size: contain;
+  
+  }.zero-text{font-size: 1em;}
+.box1{width: 50%; height:100px}
+.box1 h1{font-size: 1em;}
+.box p{font-size: 1em;}
+
+
 }
 
 @media screen and (max-width: 600px) {
